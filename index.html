@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AATMML High School</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <div class="header">
-        <img src="images/logo.jpg" alt="logo">
+        <img class="logo" src="images/logo.jpg" alt="logo">
         <h1>A.A.T.M ML High School</h1>
     </div>
 
@@ -35,15 +36,50 @@
 
     </div>
 
-    <div class="hero-bg">
+    <div class="slider">
+        <div class="slides">
 
-        
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+
+            <div class="slide first">
+                <img src="images/1.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/2.jpg" alt="">
+
+            </div>
+            <div class="slide">
+                <img src="images/3.jpg" alt="">
+                
+            </div>
+            <div class="slide">
+                <img src="images/4.jpg" alt="">
+                
+            </div>
+
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+
+        </div>  
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
     </div>
 
 
     <footer>
         <p>Copyright © All Right Reserved by Nadir</p>
-        
+
 
     </footer>
     
