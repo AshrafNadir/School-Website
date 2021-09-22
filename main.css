@@ -3,6 +3,30 @@ body{
     padding: 0;
 }
 
+.header{
+    display: flex;
+    justify-content: center;
+    background: #7ebebf;
+}
+
+.header-name h1{
+    text-transform: uppercase;
+    margin-top: 2em;
+    margin-left: 1em;
+    color: white;
+    cursor: pointer;
+}
+
+.header img{
+    width: 150px;
+    height: 150px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    cursor: pointer;
+}
+
+
+
 /*.header{
     margin: 0;
     display: flex;
