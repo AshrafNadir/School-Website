@@ -4,7 +4,7 @@ body{
     margin: 0;
     padding: 0;
 }
-li,a{
+li,a,p{
     font-family: "Montserrat",sans-serif;
 }
 
@@ -31,33 +31,49 @@ li,a{
 }
 
 .navigation-bar{
-    background-color: #acb5b5;
+    padding: 0;
+    background-color: #cbcba9;
    
 }
 
 .nav-list{
     display: flex;
     justify-content: space-between;
+    margin: 0;
+    padding: 0;
  
 }
 .nav-list li{
     list-style-type: none;
+    margin: 1em;
+    padding: 0;
+   
 }
 .nav-list li a{
     text-decoration: none;
     text-transform: uppercase;
+    color: white;
+ 
+
 }
 
-/*.header{
+
+footer{
+    background-color: #cbcba9;
+}
+
+footer p{
     margin: 0;
-    display: flex;
-    text-decoration: none;
-    
+    padding: 1em;
+    text-align: end;
 }
 
-.logo{
-    align-content: left;
-}/*
+span{
+    text-transform: uppercase;
+    color: brown;
+    font-weight: bold;
+}
+
 
 
 
