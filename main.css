@@ -3,6 +3,10 @@
 body{
     margin: 0;
     padding: 0;
+    background-color:  #7ebebf;
+}
+li{
+    text-shadow: 2px 2px 4px #000000;
 }
 li,a,p{
     font-family: "Montserrat",sans-serif;
@@ -20,6 +24,7 @@ li,a,p{
     margin-left: 1em;
     color: white;
     cursor: pointer;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .header img{
@@ -60,6 +65,7 @@ li,a,p{
 
 footer{
     background-color: #cbcba9;
+    box-shadow:1px 1px 5px #000000;
 }
 
 footer p{
@@ -78,14 +84,16 @@ span{
 
 
 /*hero section CSS*/
-.slider{
+.hero-bg{
+    margin-left: 17em;
+    margin-top: 5em;
+    margin-bottom: 5em;
     width: 800px;
     height: 500px;
     border-radius: 10px;
     overflow: hidden;
     align-items: center;
     
-
 }
 
 .slides{
