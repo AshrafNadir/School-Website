@@ -78,12 +78,22 @@ span{
     font-weight: bold;
 }
 
+.hero-section{
+    display:flex;
+}
+
+.notice{
+    background: white;
+    margin: 0;
+    padding: 0;
+}
+
 
 
 
 /*hero section CSS*/
 .hero-bg{
-    margin-left: 17em;
+    margin-left: 5em;
     margin-top: 5em;
     margin-bottom: 5em;
     width: 800px;
@@ -157,38 +167,3 @@ span{
 #radio4:checked ~ .first{
     margin-left: -60%;
 }
-
-/*.navigation-auto{
-    position: absolute;
-    display: flex;
-    width: 800px;
-    justify-content: center;
-    margin-top: 460px;
-
-}
-
-.navigation-auto div{
-    border: 2px solid #40D3DC;
-    padding: 5px;
-    border-radius: 10px;
-    transition: 1s;
-
-}
-
-.navigation-auto:not(:last-child){
-    margin-right: 40px;
-
-}
-
-#radio1:checked ~ .navigation-auto .auto-btn1{
-    background: #40D3DC;
-}
-#radio2:checked ~ .navigation-auto .auto-btn2{
-    background: #40D3DC;
-}
-#radio3:checked ~ .navigation-auto .auto-btn3{
-    background: #40D3DC;
-}
-#radio4:checked ~ .navigation-auto .auto-btn4{
-    background: #40D3DC;
-}*/
