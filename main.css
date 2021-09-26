@@ -80,15 +80,34 @@ span{
 
 .hero-section{
     display:flex;
+    justify-content: space-between;
 }
 
 .notice{
+    text-align: center;
+    box-shadow: 2px 2px 5px #000000;
     background: white;
-    margin: 0;
-    padding: 0;
+    margin:0.8em;
+    padding: 0.5em;
+    width: 30%;
+    height: 90%;
 }
 
-
+.notice1{
+    box-shadow: 1px 1px 5px gray;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+.notice2{
+    box-shadow: 1px 1px 5px gray;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+.notice3{
+    box-shadow: 1px 1px 5px  gray;
+    margin: 0.5em;
+    padding: 0.5em;
+}
 
 
 /*hero section CSS*/
